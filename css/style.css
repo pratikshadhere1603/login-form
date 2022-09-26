@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form_div {
+    height: 100%;
+    width: 100%;
+    background-image: url(/login-form/img/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form_box {
+    width: 400px;
+    height: 420px;
+    position: relative;
+    margin: 9% auto;
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    box-shadow: 5px 0px 5px 5px #c8ea07;
+}
+
+.buttons {
+    position: relative;
+    width: 200px;
+    margin: 40px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 4px #7fb41b;
+}
+.form_btn {
+    position: relative;
+    border: 0;
+    outline: none;
+    padding: 15px 24px;
+    background: transparent;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btn_design {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(to right, #a0f503, #f5f105);
+    transition: .5s;
+}
+.form-group {
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+#reg_form {
+    top: 100px;
+}
+.input,
+.select {
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 2px solid #8ed806;
+    outline: none;
+    background: transparent;
+}
+.select {
+    color: purple;
+    font-weight: bold;
+}
+.btn_login_reg {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    background: linear-gradient(to right, #a0f503, #f5f105);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#reg_form {
+    left: 500px;
+}
+#login_form {
+    left: 65px;
+}
+.social_media {
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+}
+.social_icon {
+    height: 46px;
+    width: 46px;
+    border: 1px solid #5d8d04;
+    color: #5d8d04;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.social_icon:hover {
+    color: #a0f503;
+    border-color: #5d8d04;
+} 
+
+@media screen and (max-width: 991px) {
+    .form_box {
+        width: 350px;
+        height: 420px;
+        position: relative;
+        margin: 30% auto;
+        padding: 5px;
+        overflow: hidden;
+        border-bottom-right-radius: 70px;
+        border-top-left-radius: 70px;
+    }
+    .form_div {
+        height: 100%;
+    }
+    #login_form {
+        left: 30px;
+    }
+    #reg_form {
+        left: 400px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .form_box {
+        margin: 40% auto;
+    }
+}
